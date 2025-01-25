@@ -1,4 +1,21 @@
-terraform.tfstate
-.devcontainer/
+# Terraform files
 .terraform/
+*.tfstate
+*.tfstate.*
 .terraform.lock.hcl
+
+# Variable files
+*.tfvars
+
+# IDE files
+.idea/
+.vscode/
+
+# Other files
+*.log
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
