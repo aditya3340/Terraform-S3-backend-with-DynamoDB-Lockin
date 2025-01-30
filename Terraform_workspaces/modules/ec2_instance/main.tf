@@ -19,6 +19,7 @@ resource "aws_instance" "ec2_instance" {
   instance_type = var.instance_type
 
   tags = {
+    Name: "ADI${terraform.workspace}"
     "Enviroment" : var.enviroment
   }
 }
